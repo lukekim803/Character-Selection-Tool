@@ -7,11 +7,13 @@
         <title>Luminous </title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="style.css"  href = "sketch.js">
+        <script src="sketch.js"></script>
+
     </head>
     <h1 style="color: rgb(43, 84, 205); font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">LUMINOUS</h1>
 <body>
     
-        
+
 
     </div>
 
@@ -24,16 +26,16 @@
             <form>
             <!-- <button onclick="myFunction()" class="">Choose an option</button> -->
            
-                <select id="player-abil">
+                <select class="player-abil">
                     <option value="Default1">Choose an ability</option>
                     <option value="player-flight">Flight</option>
-                    <option value="player-morph">Morphing</option>
+                    <option value="player-heal">Healing</option>
                 </select>
             </form>
                
                 
             <form>
-                <select id="player-weapon">
+                <select class="player-weapon">
                     <option value="Default2">Choose a Weapon</option>
                     <option value="weap-sword">Sword</option>
                     <option value="weap-gun">Gun</option>
@@ -41,7 +43,7 @@
             </form>
 
             <form>
-                <select id="player-traits">
+                <select class="player-traits">
                     <option value="Default4">Choose a Trait</option>
                     <option value="player-strength">Strength</option>
                     <option value="player-swift">Swiftness</option>
@@ -49,7 +51,7 @@
             </form>
 
             <form>
-                <select id="player-gender">
+                <select class="player-eyecolor">
                     <option value="Default5">Choose a eyecolor</option>
                     <option value="player-aquamarine">aquamarine</option>
                     <option value="player-orange">orange</option>
@@ -57,7 +59,8 @@
             </form>
 
             
-            <input type="button" id = "gen-btn" value="GENERATE" onclick="calculate()">
+            <button  id="gen-btn">GENERATE</button>
+            <p id="char-test"></p>
         
             </div>
           </div>
@@ -66,7 +69,7 @@
       </div>
     <img class="bg-img" src="Chroma.gif">  
     
-    <div id="result"></div>
+    <div style="color: rgb(68, 49, 136);" class ="char-result" id="result"></div>
 </body>
 
 </html>
