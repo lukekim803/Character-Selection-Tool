@@ -30,7 +30,7 @@ function calculate()
 
     }
     else{
-        document.getElementById("result").innerHTML = "Something" 
+        document.getElementById("result").innerHTML = "Something";
     }
 
     
