@@ -82,6 +82,9 @@ function calculate()
     if(value1 == "player-flight" && value2 == "weap-gun" && value3 == "player-swift" && value4 == "player-aquamarine"){
         document.getElementById("result").innerHTML = "Raina";
     }
+       if(value1 == "player-flight" && value2 == "weap-sword" && value3 == "player-stength" && value4 == "player-orange"){
+        document.getElementById("result").innerHTML = "Falcone";
+    }
     
 
     console.log(value1)
